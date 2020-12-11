@@ -10,7 +10,10 @@ get_ipython().magic('reset -sf')
 
 import math
 
-with open('C:/Users/slb/Documents/AdventOfCode2020/Dec3.txt') as f:
+import os
+file_path = os.path.join(os.path.curdir, "Dec3.txt")
+
+with open(file_path) as f:
     geology = f.readlines()
  
 k = 0
