@@ -5,7 +5,11 @@ Created on Thu Dec  3 19:00:31 2020
 @author: slb
 """
 #%%
-with open('C:/Users/slb/Documents/AdventOfCode2020/Dec1.txt') as f:
+
+import os
+file_path = os.path.join(os.path.curdir, "Dec1.txt")
+
+with open(file_path) as f:
     dec1_data = [int(i) for i in f]
 
 for i in range(199):
