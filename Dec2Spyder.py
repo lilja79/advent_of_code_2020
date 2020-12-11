@@ -6,8 +6,12 @@ Created on Fri Dec  4 10:49:54 2020
 """
 import pandas as pd
 import re
+import os
+
+file_path = os.path.join(os.path.curdir, "Dec2.txt")
+
 #Read data
-pswrds = pd.read_csv('C:/Users/slb/Documents/AdventOfCode2020/Dec2.txt', sep=' ')
+pswrds = pd.read_csv(file_path, sep=' ')
 
 #Separate the lowest and highest numbers acceptable in the password (split string)
 orig = pswrds['number']
