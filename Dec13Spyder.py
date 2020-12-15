@@ -11,7 +11,7 @@ get_ipython().magic('reset -sf')
 #import numpy as np
 
 import os
-file_path = os.path.join(os.path.curdir, "C:/Users/slb/Documents/AdventOfCode2020/Dec13.txt")
+file_path = os.path.join(os.path.curdir, "Dec13.txt")
 
 with open(file_path) as f:
     notes = f.readlines()
