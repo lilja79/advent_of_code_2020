@@ -11,7 +11,7 @@ get_ipython().magic('reset -sf')
 import re
 
 import os
-file_path = os.path.join(os.path.curdir, "C:/Users/slb/Documents/AdventOfCode2020/Dec4.txt")
+file_path = os.path.join(os.path.curdir, "Dec4.txt")
 
 with open(file_path) as f:  
      data = f.readlines()
