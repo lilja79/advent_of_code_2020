@@ -8,7 +8,7 @@ from IPython import get_ipython
 get_ipython().magic('reset -sf')
 
 import os
-file_path = os.path.join(os.path.curdir, "C:/Users/slb/Documents/AdventOfCode2020/Dec5.txt")
+file_path = os.path.join(os.path.curdir, "Dec5.txt")
 
 with open(file_path) as f:  
      data = f.readlines()
